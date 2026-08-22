@@ -22,8 +22,8 @@ The `n8n test` project follows a structured data architecture, moving raw ingest
 
 The pipeline is organized into distinct layers to ensure data quality and maintainability:
 
-1. **Raw Layer**: Ingestion of raw source data (e.g., `raw_customer_cases`).
-2. **Core/Dimensional Layer**: Standardization into dimensional and fact models (e.g., `dim_customer_core`, `fct_subscription_core`).
+1. **Raw Layer**: Ingestion of raw source data (e.g., `raw_customer_cases`, `raw_product_info`, `raw_customer_info`, `raw_customer_product`).
+2. **Core/Dimensional Layer**: Standardization into dimensional and fact models (e.g., `dim_customer`, `dim_product`, `fct_subscription`, `fct_customer_cases`).
 3. **Enrichment Layer**: Logic application to merge and refine datasets (e.g., `enriched_customer_case`, `enriched_subscription`).
 4. **Mart Layer**: Aggregated, business-ready tables for reporting (e.g., `mart_customer_360`, `mart_product_performance`, `mart_monthly_executive_kpi`, `mart_support_metrics`).
 
@@ -46,3 +46,7 @@ To explore the architecture:
 ## Project Status
 
 The pipeline is fully operational with active enrichment and mart-level aggregation logic driving business analytics.
+
+## Dashbaord (on Looker)
+<img width="1298" height="889" alt="image" src="https://github.com/user-attachments/assets/74c1a021-a8e9-48fd-bc5f-96fee67f742d" />
+
