@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="7090" height="2043" alt="image" src="https://github.com/user-attachments/assets/396608ab-a698-4c6d-9369-69c86dc51f32" />
+  <img width="7090" height="2039" alt="image" src="https://github.com/user-attachments/assets/770ca9a7-e32c-4fc7-8b77-c9fe430ed7c3" />
 </p>
 
 # BigQuery Subscription Analytics Project
